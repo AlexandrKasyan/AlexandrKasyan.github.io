@@ -1,5 +1,12 @@
-if(window.innerWidth<600)
-    location.href='mobile.html';
+
+function checkSize(){
+    
+}
+
+setInterval(() => {
+    if(window.innerWidth>600)
+    location.href='index.html';
+}, 50);
 
 const TOKEN = "1909186547:AAGKX9Fq2FsNErK5r-LUgyZzPB5egtgz8CE"; // токен от BotFather
 const CHAT_ID = "-1001547701566"; // chat_id для телеграм
